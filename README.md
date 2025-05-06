@@ -1,11 +1,27 @@
-# manual-merge-conflict-demo
+# 🧩 Merge Conflicts
+
 ## ✅ Tasks Completed
 
 1. Created a new GitHub repository: `manual-merge-conflict-demo`
-2. Added a basic `index.html` file containing a simple webpage
+2. Added a basic `index.html` file containing a simple webpage:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Merge Conflict Demo</title>
+</head>
+<body>
+  <h1>Hello from GitHub Flow!</h1>
+  <p>This is the starting version.</p>
+</body>
+</html>
+```
+
 3. Created two branches from `main`:
-   - `conflict/style-change`: Changed the `<h1>` text to "Hello from the Style Branch!"
-   - `conflict/content-change`: Changed the same `<h1>` text to "Hello from the Content Branch!"
+
+   * `conflict/style-change`: Changed the `<h1>` text to "Hello from the Style Branch!"
+   * `conflict/content-change`: Changed the same `<h1>` text to "Hello from the Content Branch!"
 4. Committed changes in both branches, targeting the same line to intentionally trigger a conflict
 5. Created pull requests for both branches
 6. Merged the first branch (`conflict/style-change`)
@@ -13,7 +29,7 @@
 8. Manually resolved the conflict using GitHub’s built-in editor
 9. Successfully merged both changes into the `main` branch
 
-# 🧩 Merge Conflicts
+---
 
 ### 🔥 Conflict 1: Heading Line Conflict
 
@@ -52,10 +68,8 @@ Manually replaced it with a merged version:
 ```
 
 Marked the file as resolved, committed the fix, and completed the merge.
-![Capture_4](https://github.com/user-attachments/assets/dc2f7d24-5526-4140-93df-f9c566b2a34f)
 
-
-
+![Capture\_4](https://github.com/user-attachments/assets/dc2f7d24-5526-4140-93df-f9c566b2a34f)
 
 ✅ **Conflict 1 resolved successfully.**
 
@@ -94,15 +108,19 @@ Original line:
 <p>New content added by the content branch.</p>
 >>>>>>> conflict/content-change
 ```
-![Capture_](https://github.com/user-attachments/assets/26a75c90-d411-44fd-8223-4f0eebaf1c5c)
-![Capture_2](https://github.com/user-attachments/assets/d954384e-0d8d-4220-bc8a-c2489f3272b8)
-![Capture_3](https://github.com/user-attachments/assets/d5bf63a7-cb80-41be-b71d-cbead5503489)
+
+![Capture\_](https://github.com/user-attachments/assets/26a75c90-d411-44fd-8223-4f0eebaf1c5c)
+![Capture\_2](https://github.com/user-attachments/assets/d954384e-0d8d-4220-bc8a-c2489f3272b8)
+![Capture\_3](https://github.com/user-attachments/assets/d5bf63a7-cb80-41be-b71d-cbead5503489)
+
 #### 🔧 Resolution:
-one got automatically edit in git hub and for second conflit,
+
+One conflict was automatically resolved by GitHub. For the second conflict:
+
 Manually edited the file to include both changes in a combined form:
 
 ```html
 <p>This paragraph is restyled and includes new content from both branches.</p>
 ```
 
-
+✅ **Conflict 2 resolved successfully.**
