@@ -44,9 +44,11 @@ HERE ARE SOME OF THE SCREENSHOTS OF 1ST CONFLICT
 #### 🔹 Cause of Conflict:
 In this conflict, both branches modified the same paragraph (`<p>`) element in the `index.html` file.
 
-Original line:
-```html
-<p>This is the starting version.</p>
+<<<<<<< HEAD
+<p>This paragraph is restyled by the style branch.</p>
+=======
+<p>New content added by the content branch.</p>
+>>>>>>> conflict/content-change
 
 ![Capture_](https://github.com/user-attachments/assets/26dabc5d-82e7-4c32-bea5-9a03739b2d47)
 ![Capture_2](https://github.com/user-attachments/assets/8a4fae47-174f-4640-989e-64ee8f2c6ba2)
