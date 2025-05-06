@@ -53,6 +53,9 @@ Manually replaced it with a merged version:
 
 Marked the file as resolved, committed the fix, and completed the merge.
 
+![Capture_](https://github.com/user-attachments/assets/26a75c90-d411-44fd-8223-4f0eebaf1c5c)
+
+
 ✅ **Conflict 1 resolved successfully.**
 
 ---
