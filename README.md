@@ -128,11 +128,16 @@ Manually edited the file to include both changes in a combined form:
 ## Husky: 
 **Descripotion**
   1.Husky is a tool that lets you run scripts at different points in your Git workflow.
+  
   2.It's commonly used to run checks before commits or pushes.
+  
   3.For example, it can lint your code before allowing a commit.This helps catch errors early and keeps the codebase clean.
+  
   4.Husky works well with tools like ESLint, Prettier, and commitlint.
+  
   5.It helps enforce team coding standards automatically. You won’t forget to run checks — Husky does it for you.
-  7.It makes your development process more reliable and consistent.
+  
+  6.It makes your development process more reliable and consistent.
 
 
 
