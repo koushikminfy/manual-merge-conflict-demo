@@ -54,6 +54,8 @@ Manually replaced it with a merged version:
 Marked the file as resolved, committed the fix, and completed the merge.
 
 ![Capture_](https://github.com/user-attachments/assets/26a75c90-d411-44fd-8223-4f0eebaf1c5c)
+![Capture_2](https://github.com/user-attachments/assets/d954384e-0d8d-4220-bc8a-c2489f3272b8)
+![Capture_3](https://github.com/user-attachments/assets/d5bf63a7-cb80-41be-b71d-cbead5503489)
 
 
 ✅ **Conflict 1 resolved successfully.**
