@@ -124,6 +124,8 @@ Manually edited the file to include both changes in a combined form:
 ```
 
 **Conflict 2 resolved successfully.**
+
+## **Husky: **
 ## **Objective:**
 
 Learn to improve **code quality and consistency** through **Git hooks** and basic **CI (Continuous Integration)** using **automation tools**.
