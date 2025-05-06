@@ -52,10 +52,9 @@ Manually replaced it with a merged version:
 ```
 
 Marked the file as resolved, committed the fix, and completed the merge.
+![Capture_4](https://github.com/user-attachments/assets/dc2f7d24-5526-4140-93df-f9c566b2a34f)
 
-![Capture_](https://github.com/user-attachments/assets/26a75c90-d411-44fd-8223-4f0eebaf1c5c)
-![Capture_2](https://github.com/user-attachments/assets/d954384e-0d8d-4220-bc8a-c2489f3272b8)
-![Capture_3](https://github.com/user-attachments/assets/d5bf63a7-cb80-41be-b71d-cbead5503489)
+
 
 
 ✅ **Conflict 1 resolved successfully.**
@@ -95,7 +94,9 @@ Original line:
 <p>New content added by the content branch.</p>
 >>>>>>> conflict/content-change
 ```
-
+![Capture_](https://github.com/user-attachments/assets/26a75c90-d411-44fd-8223-4f0eebaf1c5c)
+![Capture_2](https://github.com/user-attachments/assets/d954384e-0d8d-4220-bc8a-c2489f3272b8)
+![Capture_3](https://github.com/user-attachments/assets/d5bf63a7-cb80-41be-b71d-cbead5503489)
 #### 🔧 Resolution:
 one got automatically edit in git hub and for second conflit,
 Manually edited the file to include both changes in a combined form:
