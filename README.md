@@ -59,7 +59,7 @@ Both branches edited the same `<h1>` line in `index.html`:
 >>>>>>> conflict/content-change
 ```
 
-#### 🔧 Resolution:
+####  Resolution:
 
 Manually replaced it with a merged version:
 
@@ -125,7 +125,7 @@ Manually edited the file to include both changes in a combined form:
 
 **Conflict 2 resolved successfully.**
 
-## **Husky: **
+## Husky: 
 ## **Objective:**
 
 Learn to improve **code quality and consistency** through **Git hooks** and basic **CI (Continuous Integration)** using **automation tools**.
