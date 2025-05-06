@@ -13,18 +13,90 @@
 8. Manually resolved the conflict using GitHub’s built-in editor
 9. Successfully merged both changes into the `main` branch
 
+# 🧩 Merge Conflicts
 
-## ⚠️ Merge Conflict Explanation
+### 🔥 Conflict 1: Heading Line Conflict
 
-A merge conflict happened because both branches modified the **same line** in `index.html`:
-### Conflict 1: Paragraph Text Conflict
+#### 🔹 Cause of Conflict:
+
+Both branches edited the same `<h1>` line in `index.html`:
+
+* `conflict/style-change` changed it to:
+
+  ```html
+  <h1>Hello from the Style Branch!</h1>
+  ```
+
+* `conflict/content-change` changed it to:
+
+  ```html
+  <h1>Hello from the Content Branch!</h1>
+  ```
+
+#### 🔹 Git Conflict Markers:
+
 ```html
-<h1>Hello from GitHub Flow!</h1>
-
 <<<<<<< HEAD
 <h1>Hello from the Style Branch!</h1>
 =======
 <h1>Hello from the Content Branch!</h1>
 >>>>>>> conflict/content-change
+```
 
- ---> in github  as it is the small change it will get automatically changed by github
+#### 🔧 Resolution:
+
+Manually replaced it with a merged version:
+
+```html
+<h1>Hello from both Style and Content branches!</h1>
+```
+
+Marked the file as resolved, committed the fix, and completed the merge.
+
+✅ **Conflict 1 resolved successfully.**
+
+---
+
+### 🔥 Conflict 2: Paragraph Text Conflict
+
+#### 🔹 Cause of Conflict:
+
+In this conflict, both branches modified the same paragraph (`<p>`) element in the `index.html` file.
+
+Original line:
+
+```html
+<p>This is the starting version.</p>
+```
+
+* `conflict/style-change` changed it to:
+
+  ```html
+  <p>This paragraph is restyled by the style branch.</p>
+  ```
+
+* `conflict/content-change` changed it to:
+
+  ```html
+  <p>New content added by the content branch.</p>
+  ```
+
+#### 🔹 Git Conflict Markers:
+
+```html
+<<<<<<< HEAD
+<p>This paragraph is restyled by the style branch.</p>
+=======
+<p>New content added by the content branch.</p>
+>>>>>>> conflict/content-change
+```
+
+#### 🔧 Resolution:
+one got automatically edit in git hub and for second conflit,
+Manually edited the file to include both changes in a combined form:
+
+```html
+<p>This paragraph is restyled and includes new content from both branches.</p>
+```
+
+
