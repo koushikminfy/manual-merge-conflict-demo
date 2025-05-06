@@ -127,6 +127,7 @@ Manually edited the file to include both changes in a combined form:
 
 ## Husky: 
 **Descripotion**
+
   1.Husky is a tool that lets you run scripts at different points in your Git workflow.
   
   2.It's commonly used to run checks before commits or pushes.
